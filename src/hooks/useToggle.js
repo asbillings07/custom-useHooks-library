@@ -1,6 +1,7 @@
 import { useState } from 'react'
 
-/*
+// useToggle Hook
+/* 
 
 Rename output, multiple uses of hook, is good if you want to rename them later 
 return [isToggled, setToggle, toggle]
