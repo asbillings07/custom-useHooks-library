@@ -1,6 +1,7 @@
 import React from 'react'
 import { Card, CardGrid, Container, Header } from './Elements'
 import { Toggle } from './components/Toggle'
+import Mount from './components/Mount'
 import Inc from './components/increment'
 import './App.css'
 import Menu from './Menu'
@@ -20,6 +21,7 @@ function App() {
         <h2>Super Cool</h2>
         <Toggle />
         <Inc />
+        <Mount />
         <CardGrid>
           <Card style={{ background: 'var(--purp)' }}>
             <h3>Some card</h3>
