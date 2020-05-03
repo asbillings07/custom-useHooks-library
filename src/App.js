@@ -3,6 +3,7 @@ import { Card, CardGrid, Container, Header } from './Elements'
 import { Toggle } from './components/Toggle'
 import Mount from './components/Mount'
 import Inc from './components/increment'
+import Hover from './components/Hover'
 import './App.css'
 import Menu from './Menu'
 import blue from './blue.png'
@@ -22,6 +23,7 @@ function App() {
         <Toggle />
         <Inc />
         <Mount />
+        <Hover />
         <CardGrid>
           <Card style={{ background: 'var(--purp)' }}>
             <h3>Some card</h3>
