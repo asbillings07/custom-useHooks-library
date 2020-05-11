@@ -1,5 +1,5 @@
 import React from 'react'
-import { useInc } from '../hooks/useIncrement'
+import { useInc } from '../hooks'
 
 const Inc = () => {
   const [value, { dec, inc, reset }] = useInc({

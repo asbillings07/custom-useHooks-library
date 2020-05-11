@@ -1,0 +1,5 @@
+{
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": true,
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+  "prettier.arrowParens": "avoid"
+}
