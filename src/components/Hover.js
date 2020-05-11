@@ -6,15 +6,15 @@ import { useHover, useWindowWidth, useMeasure } from '../hooks'
 const Hover = () => {
   const { bind, isHovered } = useHover()
   const width = useWindowWidth()
-  const [{ ref }, bounds] = useMeasure()
+  // const [{ ref }, bounds] = useMeasure()
 
-  console.log('bounds', bounds)
+  // console.log('bounds', bounds)
 
   if (width <= 400) return null
 
   return (
     <div>
-      <Card ref={ref} {...bind} style={{ background: isHovered ? 'var(--purp)' : 'var(--black)' }}>
+      <Card {...bind} style={{ background: isHovered ? 'var(--purp)' : 'var(--black)' }}>
         <h3>Some card</h3>
         <img src={black} alt='' />
       </Card>

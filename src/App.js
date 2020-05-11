@@ -2,6 +2,7 @@ import React from 'react'
 import { Card, CardGrid, Container, Header } from './Elements'
 import { Toggle } from './components/Toggle'
 import Cookie from './components/Cookie'
+import Script from './components/Script'
 import Mount from './components/Mount'
 import Inc from './components/increment'
 import Nav from './components/Nav'
@@ -30,6 +31,7 @@ function App() {
           <Mount />
           <Cookie />
           <Hover />
+          <Script />
           <CardGrid>
             <Card style={{ background: 'var(--purp)' }}>
               <h3>Some card</h3>
