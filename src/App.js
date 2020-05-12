@@ -4,6 +4,7 @@ import { Toggle } from './components/Toggle'
 import Cookie from './components/Cookie'
 import Script from './components/Script'
 import Mount from './components/Mount'
+import LocalStorage from './components/LocalStorage'
 import Inc from './components/increment'
 import Nav from './components/Nav'
 import Hover from './components/Hover'
@@ -27,6 +28,7 @@ function App() {
         <Container>
           <h2>Super Cool</h2>
           <Toggle />
+          <LocalStorage />
           <Inc />
           <Mount />
           <Cookie />
