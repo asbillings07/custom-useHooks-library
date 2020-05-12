@@ -3,6 +3,7 @@ import { Card, CardGrid, Container, Header } from './Elements'
 import { Toggle } from './components/Toggle'
 import Cookie from './components/Cookie'
 import Script from './components/Script'
+import Theme from './components/Theme'
 import Mount from './components/Mount'
 import LocalStorage from './components/LocalStorage'
 import Inc from './components/increment'
@@ -27,6 +28,7 @@ function App() {
         <Nav />
         <Container>
           <h2>Super Cool</h2>
+          <Theme />
           <Toggle />
           <LocalStorage />
           <Inc />
