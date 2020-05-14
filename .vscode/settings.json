@@ -1,4 +1,8 @@
 {
   "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
-  "prettier.arrowParens": "avoid"
+  "prettier.arrowParens": "avoid",
+  "cSpell.words": [
+    "noopener",
+    "noreferrer"
+  ]
 }

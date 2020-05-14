@@ -12,10 +12,10 @@ import Hover from './components/Hover'
 import './App.css'
 import { Provider } from './state'
 import Menu from './Menu'
-import blue from './blue.png'
-import purp from './purp.png'
-import black from './black.png'
-import green from './green.png'
+import blue from './images/blue.png'
+import purp from './images/purp.png'
+import black from './images/black.png'
+import green from './images/green.png'
 
 function App() {
   return (

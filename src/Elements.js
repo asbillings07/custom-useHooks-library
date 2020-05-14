@@ -30,6 +30,8 @@ export const CardGrid = styled.div`
 `
 
 export const Card = styled.div`
+  max-height: 800px;
+  max-width: 800px;
   border-radius: 15px;
   padding: 20px;
   color: white;
