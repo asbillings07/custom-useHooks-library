@@ -1,7 +1,7 @@
 import React from 'react'
 import { useCookie } from '../hooks'
 
-const Cookie = () => {
+export const Cookie = () => {
   const [cookie, setCookie] = useCookie({ key: 'tester' })
 
   return (
@@ -15,5 +15,3 @@ const Cookie = () => {
     </div>
   )
 }
-
-export default Cookie

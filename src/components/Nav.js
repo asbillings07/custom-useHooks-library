@@ -2,7 +2,7 @@ import React from 'react'
 import { useAppState } from '../state/Provider'
 import { useScrollFreeze } from '../hooks'
 
-const NavWrapper = () => {
+export const NavWrapper = () => {
   const { isMenuOpen } = useAppState()
   if (!isMenuOpen) return null
   return <Nav />
@@ -29,5 +29,3 @@ const Nav = () => {
     </nav>
   )
 }
-
-export default NavWrapper

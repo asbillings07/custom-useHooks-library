@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Welcome = () => {
+export const Welcome = () => {
   return (
     <div>
       <h1>Welcome to my interactive useHooks library</h1>
@@ -24,5 +24,3 @@ const Welcome = () => {
     </div>
   )
 }
-
-export default Welcome

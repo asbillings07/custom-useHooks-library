@@ -1,7 +1,7 @@
 import React from 'react'
 import { useInc } from '../hooks'
 
-const Inc = () => {
+export const Increment = () => {
   const [value, { dec, inc, reset }] = useInc({
     maxValue: 10,
     minValue: 0,
@@ -14,8 +14,14 @@ const Inc = () => {
       {value}
       <button onClick={inc}>+</button>
       <button onClick={reset}>reset</button>
+
+      <p>This hook can be used in many ways!</p>
+      <p>
+        check out the source code{' '}
+        <a href='https://bit.ly/2zX2s6d' target='_blank' rel='noopener noreferrer'>
+          here
+        </a>
+      </p>
     </div>
   )
 }
-
-export default Inc

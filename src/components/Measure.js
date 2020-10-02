@@ -2,7 +2,8 @@ import React from 'react'
 import { Card } from '../Elements'
 import { useMeasure } from '../hooks'
 import Blue from '../images/blue.png'
-const Measure = () => {
+
+export const Measure = () => {
   const [{ ref }, bounds] = useMeasure()
   return (
     <div>
@@ -28,5 +29,3 @@ const Measure = () => {
     </div>
   )
 }
-
-export default Measure

@@ -3,7 +3,7 @@ import { Card } from '../Elements'
 import black from '../images/black.png'
 import { useHover, useWindowWidth } from '../hooks'
 
-const Hover = () => {
+export const Hover = () => {
   const { bind, isHovered } = useHover()
   const width = useWindowWidth()
 
@@ -28,5 +28,3 @@ const Hover = () => {
     </div>
   )
 }
-
-export default Hover

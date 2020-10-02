@@ -1,5 +1,6 @@
 import React from 'react'
 import { useToggle } from '../hooks'
+
 export const Toggle = () => {
   const { isToggled, toggle } = useToggle(false)
 

@@ -1,6 +1,7 @@
 import React from 'react'
 import { useMount, useUnMount, useToggle } from '../hooks'
-const Mount = () => {
+
+export const Mount = () => {
   const { isToggled, toggle } = useToggle()
 
   return (
@@ -20,5 +21,3 @@ const UnMount = () => {
   })
   return <div>unMount Me!</div>
 }
-
-export default Mount

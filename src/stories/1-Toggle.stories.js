@@ -1,9 +1,6 @@
 import React from 'react'
 import { action } from '@storybook/addon-actions'
-import { Toggle } from '../components/Toggle'
-import Hover from '../components/Hover'
-import Measure from '../components/Measure'
-import WindowWidth from '../components/WindowWidth'
+import { Toggle, Hover, Measure, WindowWidth } from '../components'
 
 export default {
   title: 'Hooks',

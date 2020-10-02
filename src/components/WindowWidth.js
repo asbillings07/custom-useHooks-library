@@ -3,7 +3,7 @@ import { Card } from '../Elements'
 import { useWindowWidth } from '../hooks'
 import Green from '../images/green.png'
 
-const WindowWidth = () => {
+export const WindowWidth = () => {
   const width = useWindowWidth()
 
   if (width <= 600)
@@ -18,11 +18,6 @@ const WindowWidth = () => {
 
   return (
     <div>
-      <Card>
-        <h3>Some card</h3>
-        <img src={Green} alt='' />
-      </Card>
-
       <p>This hook can help you perform code changes when the viewport width changes</p>
       <p>
         check out the source code{' '}
@@ -30,8 +25,11 @@ const WindowWidth = () => {
           here
         </a>
       </p>
+      <br />
+      <Card>
+        <h3>Some card</h3>
+        <img src={Green} alt='' />
+      </Card>
     </div>
   )
 }
-
-export default WindowWidth
